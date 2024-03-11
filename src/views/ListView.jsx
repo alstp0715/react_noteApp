@@ -35,7 +35,7 @@ const Listview = () => {
                 onChange={(e) => {
                     setSearchValue(e.target.value)
                 }}
-                placeholder="검색어를 입력해주세요"
+                placeholder="검색어를 입력해주세요a"
             />
             <div className="list">
                 <h2 className="title">SaveText List</h2>
