@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&display=swap');
+
+/* reset*/
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+table {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table caption {
+    display: none;
+}
+em,
+address {
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+a img {
+    border: none;
+}
+
+button,
+input[type='submit'] {
+    cursor: pointer;
+}
+input,
+textarea,
+button {
+    border-radius: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', Roboto,
+        'Helvetica Neue', '애플 SD 산돌고딕 Neo', 'Apple SD Gothic Neo',
+        AppleSDGothicNeo, dotum, gulim, Helvetica, Arial, sans-serif;
+    color: #495057;
+}
+
+input:focus {
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.285;
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', Roboto,
+        'Helvetica Neue', '애플 SD 산돌고딕 Neo', 'Apple SD Gothic Neo',
+        AppleSDGothicNeo, dotum, gulim, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+button {
+    font-size: 1.6rem;
+    background-color: inherit;
+}
+
+select {
+    font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', Roboto,
+        'Helvetica Neue', '애플 SD 산돌고딕 Neo', 'Apple SD Gothic Neo',
+        AppleSDGothicNeo, dotum, gulim, Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    color: #495057;
+}
+
+option {
+    font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', Roboto,
+        'Helvetica Neue', '애플 SD 산돌고딕 Neo', 'Apple SD Gothic Neo',
+        AppleSDGothicNeo, dotum, gulim, Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    color: inherit;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+img {
+    vertical-align: top;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    line-height: normal;
+}
+div ul,
+div ol {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div p {
+    margin: 0;
+}
+div address {
+    margin: 0;
+}
+
+body li {
+    line-height: normal;
+    list-style: none;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+    display: none;
+}
+
+input {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+input,
+select {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+input[type='text'],
+select,
+textarea {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+
+// select
+select {
+    background-color: transparent;
+    border: 0;
+}
